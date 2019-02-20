@@ -55,6 +55,12 @@ class App extends Component {
       </div>
     </div>
   </section>
+  <section>
+    {
+      this.state.isLoading &&
+      <span>Aguarde, carregando...</span>
+    }
+  </section>
   </div>
     );
   }
