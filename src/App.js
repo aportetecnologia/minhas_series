@@ -6,6 +6,9 @@ import {
 
 import Home from './Home'
 
+// funcional-stateless component
+const Sobre = () => <section className="intro-section"><h1>Sobre</h1></section>
+
 class App extends Component {
   render() {
     return (
@@ -28,7 +31,8 @@ class App extends Component {
               </div>
             </div>
           </nav>
-          <Home />
+          <Route exact path='/' component={Home} />
+          <Route exact path='/about' component={Sobre} />
         </div>
       </Router>
     )
