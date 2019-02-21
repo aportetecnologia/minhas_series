@@ -1,5 +1,5 @@
 {
-  "series":[
+  "series": [
     {
       "id": 1,
       "name": "How I met your mother",
@@ -12,7 +12,7 @@
       "name": "Friends",
       "status": "watching",
       "genre": "Comédia",
-      "current":{
+      "current": {
         "episode": "01",
         "season": "09"
       },
@@ -33,7 +33,30 @@
       "comments": "Galera fala bem"
     }
   ],
-  "genres":[
-    "Comédia", "Drama", "Ação"
+  "genres": [
+    "Ação",
+    "Animação",
+    "Aventura",
+    "Cinema de arte",
+    "Chanchada",
+    "Cinema catástrofe",
+    "Comédia",
+    "Comédia romântica",
+    "Comédia dramática",
+    "Comédia de ação",
+    "Dança",
+    "Documentário",
+    "Docuficção",
+    "Drama",
+    "Espionagem",
+    "Faroeste (ou western)",
+    "Ficção científica",
+    "Filmes de guerra",
+    "Musical",
+    "Filme policial",
+    "Romance",
+    "Seriado",
+    "Suspense",
+    "Terror (ou horror)"
   ]
 }
