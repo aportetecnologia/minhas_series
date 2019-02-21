@@ -1,12 +1,14 @@
 import React, { Component } from 'react'
 import {
   BrowserRouter as Router,
-  Route
+  Route,
+  Link
 } from 'react-router-dom'
 
 import Home from './Home'
+import NewSeries from './NewSeries'
 
-// funcional-stateless component
+// functional-stateless component
 const Sobre = () => <section className="intro-section"><h1>Sobre</h1></section>
 
 class App extends Component {
@@ -25,13 +27,20 @@ class App extends Component {
               <div className="collapse navbar-collapse navbar-ex1-collapse">
                 <ul className="nav navbar-nav">
                   <li>
-                    <a href="">Menu item</a>
+                    <Link to='/'>Home</Link>
+                  </li>
+                  <li>
+                    <Link to='/NewSeries'>Nova Série</Link>
+                  </li>
+                  <li>
+                    <Link to='/about'>Sobre</Link>
                   </li>
                 </ul>
               </div>
             </div>
           </nav>
           <Route exact path='/' component={Home} />
+          <Route exact path='/NewSeries' component={NewSeries} />
           <Route exact path='/about' component={Sobre} />
         </div>
       </Router>
